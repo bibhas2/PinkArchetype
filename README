@@ -6,7 +6,8 @@ mvn install
 
 To generate a new Pink based web project, go to an appropriate folder and run:
 
-mvn archetype:generate -DarchetypeArtifactId=pink-archetype -DarchetypeGroupId=com.mobiarch \
+mvn archetype:generate -DarchetypeArtifactId=pink-archetype \
+  -DarchetypeGroupId=com.mobiarch \
   -DarchetypeVersion=1.0
 
 The generated project is ready to run. Let's say that the artifact ID (or project name) is MyWeb. 
