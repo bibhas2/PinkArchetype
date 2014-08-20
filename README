@@ -6,7 +6,8 @@ mvn install
 
 To generate a new Pink based web project, go to an appropriate folder and run:
 
-mvn archetype:generate -DarchetypeArtifactId=pink-archetype -DarchetypeGroupId=com.mobiarch -DarchetypeVersion=1.0
+mvn archetype:generate -DarchetypeArtifactId=pink-archetype -DarchetypeGroupId=com.mobiarch \
+  -DarchetypeVersion=1.0
 
 The generated project is ready to run. Let's say that the artifact ID (or project name) is MyWeb. 
 Then:
@@ -14,6 +15,6 @@ Then:
 cd MyWeb
 mvn package
 
-Deploy target/MyWeb.war in TomEE or JBoss. The test the URL:
+Deploy target/MyWeb.war in TomEE or JBoss. Then test the URL:
 
 curl http://localhost:8080/MyWeb/hello
