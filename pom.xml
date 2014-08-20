@@ -4,7 +4,7 @@
 
   <groupId>com.mobiarch</groupId>
   <artifactId>pink-archetype</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
   <name>pink-archetype</name>
