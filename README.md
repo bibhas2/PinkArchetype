@@ -10,7 +10,7 @@ mvn clean install
 
 ##Install the Archetype
 ```
-https://github.com/bibhas2/PinkArchetype.git
+git clone https://github.com/bibhas2/PinkArchetype.git
 cd PinkArchetype
 mvn install
 ```

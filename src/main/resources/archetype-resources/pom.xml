@@ -29,5 +29,17 @@
 	</dependencies>
 	<build>
 		<finalName>${artifactId}</finalName>
+		<!-- We need to set the compiler level to JDK 1.6, else
+		     Eclipse project created from this archetype has error. -->
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
