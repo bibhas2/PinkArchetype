@@ -1,10 +1,17 @@
 This is an archetype to quickly create a Pink based web project.
 
-First install the archetype by running:
+##Build and Install Pink
+git clone https://github.com/bibhas2/Pink.git
+cd Pink/Pink
+mvn clean install
 
+
+##Install the Archetype
+https://github.com/bibhas2/PinkArchetype.git
+cd PinkArchetype
 mvn install
 
-To generate a new Pink based web project, go to an appropriate folder and run:
+##Generate a New Pink Based Web Project
 
 mvn archetype:generate -DarchetypeArtifactId=pink-archetype \
   -DarchetypeGroupId=com.mobiarch \
