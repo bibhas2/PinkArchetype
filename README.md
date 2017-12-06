@@ -1,6 +1,6 @@
 This is an archetype to quickly create a Pink based web project.
 
-##Build and Install Pink
+## Build and Install Pink
 ```
 git clone https://github.com/bibhas2/Pink.git
 cd Pink/Pink
@@ -8,14 +8,14 @@ mvn clean install
 ```
 
 
-##Install the Archetype
+## Install the Archetype
 ```
 git clone https://github.com/bibhas2/PinkArchetype.git
 cd PinkArchetype
 mvn install
 ```
 
-##Generate a New Pink Based Web Project
+## Generate a New Pink Based Web Project
 
 ```
 mvn -B archetype:generate -DarchetypeArtifactId=pink-archetype \
