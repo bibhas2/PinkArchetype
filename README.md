@@ -22,7 +22,7 @@ mvn -B archetype:generate -DarchetypeArtifactId=pink-archetype \
   -DarchetypeGroupId=com.mobiarch \
   -DarchetypeVersion=1.0 \
   -DgroupId=com.mycompany.app \
-  -DartifactId=MyWeb
+  -DartifactId=MyWeb \
   -Dversion=1.0
 ```
 
